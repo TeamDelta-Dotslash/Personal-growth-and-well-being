@@ -1,0 +1,7 @@
+.main-header 
+{
+    background-color: rgba(0,0,0,0.4);
+    background-image: url("book_unsplash1.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
