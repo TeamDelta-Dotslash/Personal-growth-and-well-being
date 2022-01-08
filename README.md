@@ -1,4 +1,13 @@
 # Personal-growth-and-well-being
 This repository is for our web application "Trackify".
+# Trackify
+A web application that acts as a simple tool for compiling your favourite articles, audio files as text, video links, book quotes and highlights in one place.
+## Features:
+* Save articles
+* Save video links
+* highlight and store those highlights separately
+* store notes you take while reading books
+* Use a speech to text feature to save quotes from audio files.
 
-We consume hours worth of information everyday from a range of sources that include podcasts, articles, books and videos. Every now and then we come across key bits of information that resonate with us; However, most of the time we don’t keep track of this information - we remember only a fraction of what we consume and the rest is rendered useless! Our aim is to build an application that can help you gather wisdom and information from a variety of sources like podcasts, articles and books and compile it into a single place where it is easy to organize and revisit  information. Moreover, you can save articles to be read later, in case you come across something interesting that you don’t want to go through right away.
+## Techstack
+html, css, Django
