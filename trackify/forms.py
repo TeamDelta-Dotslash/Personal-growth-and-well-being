@@ -16,6 +16,6 @@ class audio_forms(forms.ModelForm):
     class Meta:
         model = audio
         fields = [
-            "title",
+            "caption",
             "audio",
         ]
