@@ -1,7 +1,41 @@
-.main-header 
-{
-    background-color: rgba(0,0,0,0.4);
-    background-image: url("book_unsplash1.jpg");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    font-family:Raleway;
+    color:#777;
+}
+html, body {
+    margin:0;
+    padding:0;
+}
+.nav ul {
+    margin:0;
+}
+.nav li {
+    display:inline;
+}
+.nav a {
+    display:inline-block;
+    padding:1em;
+    color:white;
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-nav li {
+    padding:1%;
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.main-header {
+    background-color: rgba(50, 50, 50, 0.5);
+    background-image: url("Images/study_unsplash2.jpg");
     background-blend-mode: multiply;
     background-size: cover;
+    /*padding-bottom: 30px;*/
 }
